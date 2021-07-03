@@ -1,4 +1,4 @@
-package com.dharan.singleton.examplone;
+package com.dharan.creational.examplone;
 
 public class SingletonMultiThread {
 

@@ -1,16 +1,16 @@
-package com.dharan.factory;
+package com.dharan.creational.factory;
 
-public class BasicCar implements Car {
+public class SportsCar implements Car {
 
     private final String steering;
     private final String brakes;
     private final String mirror;
 
-    public BasicCar(String steering, String brakes, String mirror) {
+    public SportsCar(String steering, String brakes, String mirror) {
         this.steering = steering;
         this.brakes = brakes;
         this.mirror = mirror;
-        System.out.println("Creating a basic car");
+        System.out.println("Creating a sports car");
     }
 
     @Override

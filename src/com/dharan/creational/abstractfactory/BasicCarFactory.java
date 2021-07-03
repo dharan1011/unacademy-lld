@@ -1,4 +1,4 @@
-package com.dharan.abstractfactory;
+package com.dharan.creational.abstractfactory;
 
 public class BasicCarFactory implements CarAbstractFactory{
     private final String steering;

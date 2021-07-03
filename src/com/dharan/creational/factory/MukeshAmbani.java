@@ -1,4 +1,4 @@
-package com.dharan.factory;
+package com.dharan.creational.factory;
 
 public class MukeshAmbani {
     public static void main(String[] args) {

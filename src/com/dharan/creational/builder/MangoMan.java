@@ -1,4 +1,4 @@
-package com.dharan.builder;
+package com.dharan.creational.builder;
 
 public class MangoMan {
     public static void main(String[] args) {
