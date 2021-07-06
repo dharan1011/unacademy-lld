@@ -1,8 +1,8 @@
 package com.dharan.behavioral.strategy;
 
 public class AmazonKart {
-    private WalletStrategy walletStrategy;
-    private Product product;
+    private final WalletStrategy walletStrategy;
+    private final Product product;
 
     public AmazonKart(WalletStrategy walletStrategy, Product product) {
         this.walletStrategy = walletStrategy;
