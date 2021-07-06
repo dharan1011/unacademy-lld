@@ -7,7 +7,7 @@ public class LuxuryCarDecorator extends BaseDecorator{
 
     @Override
     public void manufactureCar() {
-        super.manufactureCar();
+        this.car.manufactureCar();
         System.out.println("Adding Luxury Features");
     }
 }

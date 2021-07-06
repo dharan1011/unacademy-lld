@@ -6,7 +6,7 @@ public class ElectricCarDecorator extends BaseDecorator{
     }
     @Override
     public void manufactureCar() {
-        super.manufactureCar();
+        this.car.manufactureCar();
         System.out.println("Adding Electric Features");
     }
 }
