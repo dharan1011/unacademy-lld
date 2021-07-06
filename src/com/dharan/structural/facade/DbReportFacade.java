@@ -11,6 +11,7 @@ public class DbReportFacade {
         if(reportGenerator == null){
             throw new RuntimeException("Unsupported Source Type : " + sourceType);
         }
+        reportGenerator.createConnection();
         if(reportType.equalsIgnoreCase("csv")){
             reportGenerator.generateCsvReport();
         }else if(reportType.equalsIgnoreCase("pdf")){
